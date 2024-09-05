@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Atencao', 'Fogo', 'Monitorando']
+
+roboflow:
+  workspace: welding-avvrq
+  project: fireai-muinp
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/welding-avvrq/fireai-muinp/dataset/1
