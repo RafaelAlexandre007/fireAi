@@ -3,7 +3,7 @@ val: ../valid/images
 test: ../test/images
 
 nc: 3
-names: ['Atencao', 'Fogo', 'Monitorando']
+names: ["Atencao", "Fogo", "Monitorando"]
 
 roboflow:
   workspace: welding-avvrq
